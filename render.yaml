@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: gold-push-worker
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python gold_push.py
+    envVars:
+      - key: OANDA_TOKEN
+        sync: false
+      - key: PUSHPLUS_TOKEN
+        sync: false
+        
