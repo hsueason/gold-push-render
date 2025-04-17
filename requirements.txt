@@ -1,0 +1,4 @@
+# gold-push-render
+requests
+pandas
+ta
